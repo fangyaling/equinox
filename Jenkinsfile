@@ -181,7 +181,7 @@ pipeline {
 				axes {
 					axis {
 						name 'PLATFORM'
-						values 'cocoa.macosx.aarch64' , 'cocoa.macosx.x86_64', 'gtk.linux.aarch64', 'gtk.linux.ppc64le', 'gtk.linux.x86_64', 'win32.win32.aarch64', 'win32.win32.x86_64'
+						values 'cocoa.macosx.aarch64' , 'cocoa.macosx.x86_64', 'gtk.linux.aarch64', 'gtk.linux.loongarch64', 'gtk.linux.ppc64le', 'gtk.linux.x86_64', 'win32.win32.aarch64', 'win32.win32.x86_64'
 					}
 				}
 				stages {
